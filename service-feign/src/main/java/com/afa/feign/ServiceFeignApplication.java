@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.netflix.feign.EnableFeignClients;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
  * @author zhou
@@ -13,10 +13,10 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 @EnableEurekaClient
 @EnableDiscoveryClient
 @EnableFeignClients
-public class ServiceRibbonApplication {
+public class ServiceFeignApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ServiceRibbonApplication.class, args);
+        SpringApplication.run(ServiceFeignApplication.class, args);
     }
 
 
