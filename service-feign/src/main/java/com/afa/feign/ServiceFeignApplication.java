@@ -12,7 +12,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableDiscoveryClient
-@EnableFeignClients
+@EnableFeignClients(basePackages="com.afa.feign")
 public class ServiceFeignApplication {
 
     public static void main(String[] args) {

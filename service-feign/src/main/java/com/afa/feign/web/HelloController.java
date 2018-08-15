@@ -1,4 +1,4 @@
-package com.afa.ribbon.web;
+package com.afa.feign.web;
 
 import com.afa.feign.service.SchedualServiceHi;
 import org.springframework.beans.factory.annotation.Autowired;
